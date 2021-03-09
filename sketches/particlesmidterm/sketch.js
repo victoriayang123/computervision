@@ -3,7 +3,7 @@ let particleLines = [];
 
 
 function setup() {
- let canvas = createCanvas(1440, 820);
+ let canvas = createCanvas(1441, 820);
  canvas.parent("#sketch-parent");
   for(let i = 0; i < 200; i++){
     let p = new Particle();
